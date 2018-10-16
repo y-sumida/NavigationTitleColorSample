@@ -32,7 +32,29 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fje-0V-4Zh">
+                                <rect key="frame" x="146.5" y="318.5" width="82" height="30"/>
+                                <state key="normal" title="ShowSegue"/>
+                                <connections>
+                                    <segue destination="YNS-d4-YT2" kind="show" id="6pH-GB-BWb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYP-Bp-xvP">
+                                <rect key="frame" x="164.5" y="384.5" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kgu-MG-1TB"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Fje-0V-4Zh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5PW-AM-Fzb"/>
+                            <constraint firstItem="WYP-Bp-xvP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7jb-zQ-Y3O"/>
+                            <constraint firstItem="WYP-Bp-xvP" firstAttribute="top" secondItem="Fje-0V-4Zh" secondAttribute="bottom" constant="36" id="RJh-hY-EJ2"/>
+                            <constraint firstItem="Fje-0V-4Zh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xg1-zu-7id"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="zTS-3A-Blx"/>
@@ -40,6 +62,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-612" y="-89"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="WaP-MD-5rN">
+            <objects>
+                <viewController storyboardIdentifier="ViewController2" id="YNS-d4-YT2" customClass="ViewController2" customModule="NavigationTitleColorSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yqz-Lz-nk8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="X5i-4H-22C"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zk1-rr-QEY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aJW-bb-WPl" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="372" y="167"/>
         </scene>
     </scenes>
 </document>

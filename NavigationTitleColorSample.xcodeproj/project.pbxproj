@@ -12,6 +12,7 @@
 		A974E4742176221800727FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A974E4722176221800727FA9 /* Main.storyboard */; };
 		A974E4762176221A00727FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A974E4752176221A00727FA9 /* Assets.xcassets */; };
 		A974E4792176221A00727FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A974E4772176221A00727FA9 /* LaunchScreen.storyboard */; };
+		A974E482217623EC00727FA9 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A974E481217623EC00727FA9 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A974E4752176221A00727FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A974E4782176221A00727FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A974E47A2176221A00727FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A974E481217623EC00727FA9 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				A974E46E2176221800727FA9 /* AppDelegate.swift */,
 				A974E4702176221800727FA9 /* ViewController.swift */,
+				A974E481217623EC00727FA9 /* ViewController2.swift */,
 				A974E4722176221800727FA9 /* Main.storyboard */,
 				A974E4752176221A00727FA9 /* Assets.xcassets */,
 				A974E4772176221A00727FA9 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				A974E4712176221800727FA9 /* ViewController.swift in Sources */,
 				A974E46F2176221800727FA9 /* AppDelegate.swift in Sources */,
+				A974E482217623EC00727FA9 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

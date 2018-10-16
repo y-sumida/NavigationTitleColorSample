@@ -16,5 +16,10 @@ class ViewController: UIViewController {
         title = "ViewController1"
         navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.red]
     }
+
+    @IBAction func tapButton(_ sender: Any) {
+        let vc: ViewController2  = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 
