@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         // 効くけど、viewDidAppearなので、一瞬前の色が見える
-        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.red]
+        //navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.red]
     }
 
     @IBAction func tapButton(_ sender: Any) {

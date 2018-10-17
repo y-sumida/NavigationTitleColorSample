@@ -16,4 +16,10 @@ class ViewController2: UIViewController {
         title = "ViewController2"
         navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.blue]
     }
+
+    override func willMove(toParent parent: UIViewController?) {
+        super.willMove(toParent: parent)
+        // いい感じ
+        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.red]
+    }
 }
