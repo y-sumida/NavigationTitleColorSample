@@ -16,6 +16,13 @@ class ViewController2: UIViewController {
 
         title = "ViewController2"
         // redじゃなかった
+        //originalAttr = navigationController?.navigationBar.titleTextAttributes
+        //navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.blue]
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        // ここもredじゃなかった
         originalAttr = navigationController?.navigationBar.titleTextAttributes
         navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.blue]
     }
